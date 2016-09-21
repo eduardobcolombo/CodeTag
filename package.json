@@ -1,0 +1,12 @@
+{
+  "name": "CodeTag",
+  "description": "The package Code Tag",
+  "version": "1.0.0",
+  "homepage": "http://github.com/eduardobcolombo/codetag",
+
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.2",
+    "gulp-phpunit": "^0.18.0"
+  }
+}
