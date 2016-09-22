@@ -1,22 +1,23 @@
 <?php
 
-use  Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCodeTagsTable
+class CreateCodeTagsTable extends Migration
 {
 
     public function up()
     {
-       Schema::create('codepress_tags', function(Blueprint $table) {
+       Schema::create('eduardobcolombo_tags', function(Blueprint $table) {
            $table->increments('id');
            $table->string('name');
-           $table->timestamp();
+           $table->timestamp('timestamp');
        });
     }
 
     public function down()
     {
-        Schema::drop('codepress_tags');
+        Schema::drop('eduardobcolombo_tags');
     }
 }

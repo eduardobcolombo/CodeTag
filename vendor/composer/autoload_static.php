@@ -4,12 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
+class ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
-        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
+        'e7223560d890eab89cda23685e711e2c' => __DIR__ . '/..' . '/psy/psysh/src/Psy/functions.php',
+        'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
+        '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -21,37 +26,74 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
         array (
             'eduardobcolombo\\CodeTag\\' => 24,
         ),
+        'X' => 
+        array (
+            'XdgBaseDir\\' => 11,
+        ),
         'W' => 
         array (
             'Webmozart\\Assert\\' => 17,
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Util\\' => 22,
+            'Symfony\\Polyfill\\Php56\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\Yaml\\' => 23,
+            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
             'Symfony\\Component\\EventDispatcher\\' => 34,
+            'Symfony\\Component\\DomCrawler\\' => 29,
             'Symfony\\Component\\Debug\\' => 24,
+            'Symfony\\Component\\CssSelector\\' => 30,
+            'Symfony\\Component\\Console\\' => 26,
+            'SuperClosure\\' => 13,
+        ),
+        'R' => 
+        array (
+            'Ramsey\\Uuid\\' => 12,
+        ),
+        'P' => 
+        array (
+            'Psy\\' => 4,
+            'Psr\\Log\\' => 8,
+            'PhpParser\\' => 10,
+        ),
+        'O' => 
+        array (
+            'Orchestra\\Testbench\\' => 20,
+            'Orchestra\\Database\\' => 19,
+        ),
+        'M' => 
+        array (
+            'Monolog\\' => 8,
+        ),
+        'L' => 
+        array (
+            'League\\Flysystem\\' => 17,
         ),
         'I' => 
         array (
-            'Illuminate\\Support\\' => 19,
-            'Illuminate\\Session\\' => 19,
-            'Illuminate\\Http\\' => 16,
-            'Illuminate\\Database\\' => 20,
-            'Illuminate\\Contracts\\' => 21,
-            'Illuminate\\Container\\' => 21,
+            'Illuminate\\' => 11,
+        ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
         'C' => 
         array (
+            'ClassPreloader\\' => 15,
             'Carbon\\' => 7,
         ),
     );
@@ -67,9 +109,21 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
         array (
             0 => __DIR__ . '/../..' . '/src/CodeTag',
         ),
+        'XdgBaseDir\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
+        ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Symfony\\Polyfill\\Util\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-util',
+        ),
+        'Symfony\\Polyfill\\Php56\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php56',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
@@ -79,9 +133,21 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
         ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Symfony\\Component\\Routing\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
         ),
         'Symfony\\Component\\HttpKernel\\' => 
         array (
@@ -99,33 +165,69 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
         ),
+        'Symfony\\Component\\DomCrawler\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/dom-crawler',
+        ),
         'Symfony\\Component\\Debug\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/debug',
         ),
-        'Illuminate\\Support\\' => 
+        'Symfony\\Component\\CssSelector\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/support',
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
-        'Illuminate\\Session\\' => 
+        'Symfony\\Component\\Console\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/session',
+            0 => __DIR__ . '/..' . '/symfony/console',
         ),
-        'Illuminate\\Http\\' => 
+        'SuperClosure\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/http',
+            0 => __DIR__ . '/..' . '/jeremeamia/SuperClosure/src',
         ),
-        'Illuminate\\Database\\' => 
+        'Ramsey\\Uuid\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/database',
+            0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
-        'Illuminate\\Contracts\\' => 
+        'Psy\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/contracts',
+            0 => __DIR__ . '/..' . '/psy/psysh/src/Psy',
         ),
-        'Illuminate\\Container\\' => 
+        'Psr\\Log\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/container',
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Orchestra\\Testbench\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/orchestra/testbench/src',
+        ),
+        'Orchestra\\Database\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/orchestra/database',
+        ),
+        'Monolog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'League\\Flysystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/flysystem/src',
+        ),
+        'Illuminate\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/laravel/framework/src/Illuminate',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
@@ -134,6 +236,10 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'ClassPreloader\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/classpreloader/classpreloader/src',
         ),
         'Carbon\\' => 
         array (
@@ -144,13 +250,20 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
     public static $prefixesPsr0 = array (
         'P' => 
         array (
-            'Psr\\Log\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/psr/log',
-            ),
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+        ),
+        'J' => 
+        array (
+            'JakubOnderka\\PhpConsoleHighlighter' => 
+            array (
+                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-highlighter/src',
+            ),
+            'JakubOnderka\\PhpConsoleColor' => 
+            array (
+                0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
             ),
         ),
         'D' => 
@@ -158,6 +271,13 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
             'Doctrine\\Common\\Inflector\\' => 
             array (
                 0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+            ),
+        ),
+        'C' => 
+        array (
+            'Cron' => 
+            array (
+                0 => __DIR__ . '/..' . '/mtdowling/cron-expression/src',
             ),
         ),
     );
@@ -621,10 +741,10 @@ class ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit32ec199a2b92bf41b7d5a158fc8efd50::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e::$classMap;
 
         }, null, ClassLoader::class);
     }
