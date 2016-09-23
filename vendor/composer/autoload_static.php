@@ -25,6 +25,7 @@ class ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e
         'e' => 
         array (
             'eduardobcolombo\\CodeTag\\' => 24,
+            'eduardobcolombo\\CodeTagTests\\' => 29,
         ),
         'X' => 
         array (
@@ -108,6 +109,10 @@ class ComposerStaticInit4bc4f4d8c14c239769d371de1b06441e
         'eduardobcolombo\\CodeTag\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/CodeTag',
+        ),
+        'eduardobcolombo\\CodeTagTests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'XdgBaseDir\\' => 
         array (

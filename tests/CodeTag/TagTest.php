@@ -1,6 +1,8 @@
 <?php
 
-namespace eduardobcolombo\CodeTag;
+namespace eduardobcolombo\CodeTag\Tests\CodeTag;
+
+use eduardobcolombo\CodeTag\TagMain;
 
 class TagTest extends \PHPUnit_Framework_TestCase
 {
