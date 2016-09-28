@@ -15,6 +15,7 @@ class TagTest extends \PHPUnit_Framework_TestCase
 
     public function test_check_set_name_for_tag()
     {
+
         $tag = new TagMain();
         $tag->setName('laravel');
         $this->assertEquals('laravel', $tag->getName());

@@ -1,6 +1,6 @@
 **Package example CodeTag**
 
-Hi, i'm creating a package to PHP frameworks.
+Hi, i'm creating a package for PHP frameworks.
 
 1. Clone this repository.
 2. Install NodeJS to use npm

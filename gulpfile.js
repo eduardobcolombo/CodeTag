@@ -8,7 +8,7 @@ var gulp = require('gulp'),
 gulp.task('phpunit', function() {
     var options = {debug: false, notify: true};
     gulp.src('phpunit.xml')
-        .pipe(phpunit('phpunit tests',options));
+        .pipe(phpunit('phpunit',options));
 });
 
 gulp.task('default', function(){

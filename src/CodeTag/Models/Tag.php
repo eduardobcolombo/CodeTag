@@ -13,5 +13,6 @@ class Tag extends Model
         'id',
         'name',
         'timestamp'
+
     ];
 }
