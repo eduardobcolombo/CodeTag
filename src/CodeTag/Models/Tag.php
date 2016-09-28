@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tag extends Model
 {
-    protected $table = "eduardobcolombo_tag";
+    protected $table = "eduardobcolombo_tags";
 
 
     protected $fillable = [

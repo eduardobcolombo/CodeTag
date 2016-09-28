@@ -1,7 +1,8 @@
 <?php
 namespace eduardobcolombo\CodeTag\Tests\Models;
 
-use eduardobcolombo\CodeTag\Tag;
+
+use eduardobcolombo\CodeTag\Models\Tag;
 use eduardobcolombo\CodeTag\Tests\AbstractTestCase;
 
 class TagTest extends AbstractTestCase

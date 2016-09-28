@@ -13,6 +13,8 @@ class CreateCodeTagsTable extends Migration
            $table->increments('id');
            $table->string('name');
            $table->timestamp('timestamp');
+           $table->timestamp('updated_at');
+           $table->timestamp('created_at');
        });
     }
 
